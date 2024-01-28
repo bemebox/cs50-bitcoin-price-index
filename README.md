@@ -20,6 +20,7 @@ These instructions will guide you to copy the project from the repository and ru
 
 Things you need to have installed:
 * [Python](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
+* [requests module](https://requests.readthedocs.io/en/latest/)
 
 ### Local Installation
 
@@ -30,7 +31,12 @@ $git clone [URL].git
 ```
 
 ### Run
-To run the project, run the python command.
+To run the project, first check that the requests library is installed, then run the python command.
+
+To install the requests library, write the following command-line into the terminal:
+```
+$pip install requests
+```
 
 To run the program, write the command-line into the terminal:
 ```
